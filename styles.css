@@ -1,0 +1,45 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+
+#navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+}
